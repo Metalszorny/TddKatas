@@ -1,0 +1,1 @@
+# TddKatasInVisualCSharpCore
