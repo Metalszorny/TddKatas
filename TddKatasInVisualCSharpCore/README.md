@@ -19,3 +19,7 @@ The visual C# implementation of the TDD Kata exercises using .Net Core.
 ## Environment
 - IDE: Microsoft Visual Studio 2019 Community with .Net Core 3.1
 - OS: Microsoft Windows 10 Enterprise, 64 bit
+
+
+## Warning
+The nuget packages need to be downloaded before execution.
