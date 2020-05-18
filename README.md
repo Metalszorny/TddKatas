@@ -46,8 +46,8 @@ If there are multiple negatives, show all of them in the exception message.
 6. Calling add with multiple errors will return all error messages separated by newlines.
 - "-1,,2" is invalid and return the message "Negative not allowed : -1\nNumber expected but ',' found at position 3."
 7. Numbers bigger than 1000 should be ignored, so adding 2 + 1001 = 2.
-8. Delimiters can be of any length with the following format: “//[delimiter]\n” for example: “//[***]\n1***2***3” should return 6.
-9. Allow multiple delimiters like this: “//[delim1][delim2]\n” for example “//[*][%]\n1*2%3” should return 6.
+8. Delimiters can be of any length with the following format: “//[delimiter]\n” for example: “//[+++]\n1+++2+++3” should return 6.
+9. Allow multiple delimiters like this: “//[delim1][delim2]\n” for example “//[+][%]\n1+2%3” should return 6.
 10. Make sure you can also handle multiple delimiters with length longer than one char.
 
 
