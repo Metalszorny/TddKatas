@@ -1,1 +1,21 @@
 # TddKatasInVisualCSharpCore
+
+
+## Description
+The visual C# implementation of the TDD Kata exercises using .Net Core.
+
+
+## Used Languages
+- Visual C# Core
+
+
+## Features
+- Test Driven Development
+- Unit testing with NUnit
+- Regular Expressions
+- Linq
+
+
+## Environment
+- IDE: Microsoft Visual Studio 2019 Community with .Net Core 3.1
+- OS: Microsoft Windows 10 Enterprise, 64 bit
