@@ -14,15 +14,17 @@ namespace Test
         #region Public Methods
 
         /// <summary>
-        /// 
+        /// Sets up test dependencies.
         /// </summary>
         [SetUp]
         public void Setup()
         { }
 
         /// <summary>
-        /// 
+        /// The Add method should return 0 when called with null, empty string, whitespace or custom separator declaration.
         /// </summary>
+        /// <param name="input">The test case input.</param>
+        /// <returns>The actual result of the test that is validated against the expected result.</returns>
         [Test]
         [TestCase(null, ExpectedResult = 0)]
         [TestCase("", ExpectedResult = 0)]
@@ -59,8 +61,10 @@ namespace Test
         }
 
         /// <summary>
-        /// 
+        /// The Add method should return the input when called with a single integer number.
         /// </summary>
+        /// <param name="input">The test case input.</param>
+        /// <returns>The actual result of the test that is validated against the expected result.</returns>
         [Test]
         [TestCase("0", ExpectedResult = 0)]
         [TestCase("1", ExpectedResult = 1)]
@@ -164,8 +168,10 @@ namespace Test
         }
 
         /// <summary>
-        /// 
+        /// The Add method should return the sum of the input when called with a multiple positive integer numbers up to 1000.
         /// </summary>
+        /// <param name="input">The test case input.</param>
+        /// <returns>The actual result of the test that is validated against the expected result.</returns>
         [Test]
         [TestCase("0;0", ExpectedResult = 0)]
         [TestCase("1;0", ExpectedResult = 1)]
@@ -724,7 +730,7 @@ namespace Test
         }
 
         /// <summary>
-        /// 
+        /// The Add method should throw an exception when called with an input ending with a separator.
         /// </summary>
         /// <param name="input">The test case input.</param>
         [Test]
@@ -766,6 +772,10 @@ namespace Test
         [TestCase("//[*][%]\n1%")]
         [TestCase("//[*][%]\n1*2%")]
         [TestCase("//[*][%]\n1%2*")]
+        [TestCase("//[**][%%]\n1**")]
+        [TestCase("//[**][%%]\n1%%")]
+        [TestCase("//[**][%%]\n1**2%%")]
+        [TestCase("//[**][%%]\n1%%2**")]
         [TestCase("//[sep1][sep2]\n1sep1")]
         [TestCase("//[sep1][sep2]\n1sep2")]
         [TestCase("//[sep1][sep2]\n1sep12sep2")]
@@ -807,10 +817,10 @@ namespace Test
         }
 
         /// <summary>
-        /// 
+        /// The Add method should throw an exception when called with an input containing at least one negative number.
         /// </summary>
         /// <param name="input">The test case input.</param>
-        /// <param name="negativesFound">Negative numbers in the input.</param>
+        /// <param name="negativesFound">Expected negative numbers in the input.</param>
         [Test]
         [TestCase("-1", "-1")]
         [TestCase("-1;2", "-1")]
@@ -837,8 +847,8 @@ namespace Test
         [TestCase("//\n\n1\n-2", "-2")]
         [TestCase("//\n\n-1\n-1", "-1, -1")]
         [TestCase("//-1\n-2", "-2")]
-        [TestCase("//-1\n-2-12", "-2")]
-        [TestCase("//-1\n1-1-3", "-3")]
+        [TestCase("//-1\n-2-13", "-2")]
+        [TestCase("//-1\n2-1-3", "-3")]
         [TestCase("//-1\n-2-1-2", "-2, -2")]
         [TestCase("//[$]\n-1", "-1")]
         [TestCase("//[$]\n-1$2", "-1")]
@@ -906,7 +916,7 @@ namespace Test
         [TestCase("//[+][!][#]\n-1#2", "-1")]
         [TestCase("//[+][!][#]\n-1+-2!3", "-1, -2")]
         [TestCase("//[+][!][#]\n-1!-2#3", "-1, -2")]
-        [TestCase("//[+][!][#]\n-1+-2#3", "-1, -2")]
+        [TestCase("//[+][!][#]\n-1#-2+3", "-1, -2")]
         [TestCase("//[+][!][#]\n-1+-2!-3#-1", "-1, -2, -3, -1")]
         [TestCase("//[++][!!][##]\n-1", "-1")]
         [TestCase("//[++][!!][##]\n-1++2", "-1")]
@@ -914,7 +924,7 @@ namespace Test
         [TestCase("//[++][!!][##]\n-1##2", "-1")]
         [TestCase("//[++][!!][##]\n-1++-2!!3", "-1, -2")]
         [TestCase("//[++][!!][##]\n-1!!-2##3", "-1, -2")]
-        [TestCase("//[++][!!][##]\n-1++-2##3", "-1, -2")]
+        [TestCase("//[++][!!][##]\n-1##-2++3", "-1, -2")]
         [TestCase("//[++][!!][##]\n-1++-2!!-3##-1", "-1, -2, -3, -1")]
         [TestCase("//[-1][-2][-3]\n-4", "-4")]
         [TestCase("//[-1][-2][-3]\n-4-15", "-4")]
@@ -940,7 +950,7 @@ namespace Test
         [TestCase("//[?][??][???]\n-1??-2???3", "-1, -2")]
         [TestCase("//[?][??][???]\n-1?-2???3", "-1, -2")]
         [TestCase("//[?][??][???]\n-1?-2??-3???-1", "-1, -2, -3, -1")]
-        public void Test_Add_Should_ThrowException_When_CalledWithInputContainsNegativeNumber(string input, string negativesFound)
+        public void Test_Add_Should_ThrowException_When_CalledWithInputContainingNegativeNumber(string input, string negativesFound)
         {
             // Arrange.
             var errorMessage = $"Negatives not allowed : {negativesFound}";
@@ -953,9 +963,12 @@ namespace Test
         }
 
         /// <summary>
-        /// 
+        /// The Add method should throw an exception when called with an input containing an unspecified separator.
         /// </summary>
         /// <param name="input">The test case input.</param>
+        /// <param name="supportedSeparators">Expected specified separators in the input.</param>
+        /// <param name="unsupportedSeparator">Expected unspecified separator in the input.</param>
+        /// <param name="position">Expected position of the unspecified separator.</param>
         [Test]
         [TestCase("1$2", ";' or '\n", "$", 1)]
         [TestCase("//$\n1;2", "$", ";", 1)]
@@ -993,9 +1006,11 @@ namespace Test
         }
 
         /// <summary>
-        /// 
+        /// The Add method should throw an exception when called with an input starting with a separator or containing multiple separators following each other.
         /// </summary>
         /// <param name="input">The test case input.</param>
+        /// <param name="unexpectedSeparator">Expected unexpected separator in the input.</param>
+        /// <param name="position">Expected position of the unexpected separator.</param>
         [Test]
         [TestCase(";1;2", ";", 0)]
         [TestCase("1;;2", ";", 2)]
@@ -1140,17 +1155,26 @@ namespace Test
         }
 
         /// <summary>
-        /// 
+        /// The Add method should throw an exception when called with an input containing multiple errors.
         /// </summary>
+        /// <param name="input">The test case input.</param>
+        /// <param name="negativesFound">Expected negative numbers in the input.</param>
+        /// <param name="supportedSeparators">Expected specified separators in the input.</param>
+        /// <param name="unsupportedSeparator">Expected unspecified separator in the input.</param>
+        /// <param name="unsupportedPosition">Expected position of the unspecified separator.</param>
+        /// <param name="unexpectedSeparator">Expected unexpected separator in the input.</param>
+        /// <param name="position">Expected position of the unexpected separator.</param>
         [Test]
         [TestCase("-1\n;|2;", "-1", ";' or '\n", "|", 4, ";", 3)]
         [TestCase("//$\n-1$$|2$", "-1", "$", "|", 4, "$", 3)]
         [TestCase("//$$\n-1$$$$|2$$", "-1", "$$", "|", 6, "$$", 4)]
         [TestCase("//sep\n-1sepsep|2sep", "-1", "sep", "|", 8, "sep", 5)]
+        [TestCase("//\n\n-1\n\n|2\n", "-1", "\n", "|", 4, "\n", 3)]
         [TestCase("//-1\n-2-1-1|2-1", "-2", "-1", "|", 6, "-1", 4)]
         [TestCase("//[$]\n-1$$|2$", "-1", "$", "|", 4, "$", 3)]
         [TestCase("//[$$]\n-1$$$$|2$$", "-1", "$$", "|", 6, "$$", 4)]
         [TestCase("//[sep]\n-1sepsep|2sep", "-1", "sep", "|", 8, "sep", 5)]
+        [TestCase("//[\n]\n-1\n\n|2\n", "-1", "\n", "|", 4, "\n", 3)]
         [TestCase("//[-1]\n-2-1-1|2-1", "-2", "-1", "|", 6, "-1", 4)]
         [TestCase("//[-1][-2]\n-3-2-1|2-2", "-3", "-1' or '-2", "|", 6, "-1", 4)]
         [TestCase("//[*][%]\n-1%*|2%", "-1", "*' or '%", "|", 4, "*", 3)]
@@ -1179,10 +1203,10 @@ namespace Test
         #region Protected Methods
 
         /// <summary>
-        /// 
+        /// Invokes the Add method with the provided test input.
         /// </summary>
-        /// <param name="input"></param>
-        /// <returns></returns>
+        /// <param name="input">The test case input.</param>
+        /// <returns>The result of the method.</returns>
         protected int Act_Add(string input)
         {
             var stringCalculator = new StringCalculator();
