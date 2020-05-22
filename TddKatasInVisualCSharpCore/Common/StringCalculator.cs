@@ -48,7 +48,7 @@ namespace Common
         /// <summary>
         /// Adds the provided numbers together.
         /// </summary>
-        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimeters.</param>
+        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimiters.</param>
         /// <returns>The sum of the provided numbers.</returns>
         public int Add(string numbers)
         {
@@ -67,7 +67,7 @@ namespace Common
             this.HandleNegativeNumbers(numbers, errorMessages);
 
             // Detect any unregistered or unsupported separators and create an error message if any are found.
-            this.HandleUnregisteresSeparators(numbers, errorMessages);
+            this.HandleUnregisteredSeparators(numbers, errorMessages);
 
             // Calculate the sum of the given numbers and detect and errors in the input.
             var sum = this.ProcessNumbers(numbers, errorMessages);
@@ -86,7 +86,7 @@ namespace Common
         #region Protected Methods
 
         /// <summary>
-        /// 
+        /// Initialialize variables.
         /// </summary>
         protected void Initialize()
         {
@@ -131,14 +131,15 @@ namespace Common
                 '€',
                 '÷',
                 '¤',
-                '^'
+                '^',
+				'§'
             };
         }
 
         /// <summary>
         /// Detects any provided definition for custom number separators and sets them to be used.
         /// </summary>
-        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimeters.</param>
+        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimiters.</param>
         /// <returns>The string input that contains the numbers to be added together without the definition of custom number separators.</returns>
         protected string HandleCustomSeparators(string numbers)
         {
@@ -164,7 +165,7 @@ namespace Common
         /// <summary>
         /// Detects any provided negative numbers in the input.
         /// </summary>
-        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimeters.</param>
+        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimiters.</param>
         /// <param name="errorMessages">Error messages detected when checking the input.</param>
         protected void HandleNegativeNumbers(string numbers, ICollection<string> errorMessages)
         {
@@ -181,9 +182,9 @@ namespace Common
         /// <summary>
         /// Detects any unsupported number separators in the input.
         /// </summary>
-        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimeters.</param>
+        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimiters.</param>
         /// <param name="errorMessages">Error messages detected when checking the input.</param>
-        protected void HandleUnregisteresSeparators(string numbers, ICollection<string> errorMessages)
+        protected void HandleUnregisteredSeparators(string numbers, ICollection<string> errorMessages)
         {
             var originalNumbers = numbers;
             var substitutionCharacter = this.GetSubstitutionString(numbers);
@@ -214,7 +215,7 @@ namespace Common
         /// <summary>
         /// Processes the input string's numbers and returns the sum of them.
         /// </summary>
-        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimeters.</param>
+        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimiters.</param>
         /// <param name="errorMessages">Error messages detected when checking the input.</param>
         /// <returns>The sum of the provided numbers.</returns>
         protected int ProcessNumbers(string numbers, ICollection<string> errorMessages)
@@ -287,8 +288,8 @@ namespace Common
         /// <summary>
         /// Gets the custom delimiter definition from the input.
         /// </summary>
-        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimeters.</param>
-        /// <returns>The custom delimeter definition from the input.</returns>
+        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimiters.</param>
+        /// <returns>The custom delimiter definition from the input.</returns>
         protected string GetTheCustomSeparatorDefinitionFromTheInput(string numbers)
         {
             var customSeparator = numbers.Substring(2);
@@ -312,7 +313,7 @@ namespace Common
         /// <summary>
         /// Processes the custom delimiter definition from the input and adds them to the used separators.
         /// </summary>
-        /// <param name="customSeparator">The custom delimeter definition from the input.</param>
+        /// <param name="customSeparator">The custom delimiter definition from the input.</param>
         protected void ProcessCustomSeparatorDefinition(string customSeparator)
         {
             // If there are multiple custom separators given.
@@ -335,7 +336,7 @@ namespace Common
         /// <summary>
         /// Removes the square brackets from the given custom delimiter.
         /// </summary>
-        /// <param name="customSeparator">The custom delimeter definition from the input.</param>
+        /// <param name="customSeparator">The custom delimiter definition from the input.</param>
         /// <returns>The given custom delimiter without square brackets around it.</returns>
         protected string RemoveSquareBracketsFromStartAndEnd(string customSeparator)
         {
@@ -353,7 +354,7 @@ namespace Common
         /// <summary>
         /// Replaces the number separators with a single type in the input. This may shorten the length of the input.
         /// </summary>
-        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimeters.</param>
+        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimiters.</param>
         /// <returns>The input with replaced number separators.</returns>
         protected string ReplaceSeparatorsInInput(string numbers)
         {
@@ -369,7 +370,7 @@ namespace Common
         /// <summary>
         /// Replaces the number separators with the given character in the input, but keeps the length of the input.
         /// </summary>
-        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimeters.</param>
+        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimiters.</param>
         /// <returns>The input with replaced number separators.</returns>
         protected string SubstituteSeparatorsInInput(string numbers, string substitutionCharacter)
         {
@@ -392,7 +393,7 @@ namespace Common
         /// <summary>
         /// Replaces the numbers with the given character in the input, but keeps the length of the input.
         /// </summary>
-        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimeters.</param>
+        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimiters.</param>
         /// <returns>The input with replaced numbers.</returns>
         protected string SubstituteNumbersInInput(string numbers, string substitutionCharacter)
         {
@@ -418,7 +419,7 @@ namespace Common
         /// <summary>
         /// Truncates the given character in the input if it contains multiple occurrences in one place.
         /// </summary>
-        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimeters.</param>
+        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimiters.</param>
         /// <returns>The input with truncated occurrences of the given character.</returns>
         protected string TruncateTextSubstitutionInInput(string numbers, string substitutionCharacter)
         {
@@ -431,10 +432,10 @@ namespace Common
         }
 
         /// <summary>
-        /// Gets a character that is not used in the input and can be used to substitute all number delimeters.
+        /// Gets a character that is not used in the input and can be used to substitute all number delimiters.
         /// </summary>
-        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimeters.</param>
-        /// <returns>A character that is not used in the input and can be used to substitute all number delimeters.</returns>
+        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimiters.</param>
+        /// <returns>A character that is not used in the input and can be used to substitute all number delimiters.</returns>
         protected string GetSubstitutionString(string numbers)
         {
             var substitutionCharacter = "";
@@ -454,7 +455,7 @@ namespace Common
         /// <summary>
         /// Collects the negative numbers from the input.
         /// </summary>
-        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimeters.</param>
+        /// <param name="numbers">The string input that contains the numbers to be added together separated by delimiters.</param>
         /// <returns>The negative numbers from the input.</returns>
         protected IEnumerable<string> CollectNegativeNumbersFromInput(string numbers)
         {
