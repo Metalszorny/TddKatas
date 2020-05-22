@@ -27,7 +27,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -41,7 +41,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -55,7 +55,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -69,7 +69,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -83,7 +83,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -97,7 +97,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -111,7 +111,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -125,7 +125,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -139,7 +139,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -153,7 +153,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -167,7 +167,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -181,7 +181,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -195,7 +195,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -209,7 +209,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -223,7 +223,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -237,7 +237,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -251,7 +251,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -265,7 +265,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -279,7 +279,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -293,7 +293,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -307,7 +307,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -321,7 +321,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -335,7 +335,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -349,7 +349,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -363,7 +363,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -377,7 +377,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -391,7 +391,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -405,7 +405,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -419,7 +419,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -433,7 +433,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -447,7 +447,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -461,7 +461,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -475,7 +475,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -489,7 +489,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -503,7 +503,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -517,7 +517,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -531,7 +531,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -545,7 +545,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -559,7 +559,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -573,7 +573,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -587,7 +587,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -601,7 +601,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -615,7 +615,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -629,7 +629,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -643,7 +643,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -657,7 +657,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -671,7 +671,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -685,7 +685,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -699,7 +699,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -713,7 +713,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -727,7 +727,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -741,7 +741,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -755,7 +755,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -769,7 +769,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -783,7 +783,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -797,7 +797,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -811,7 +811,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -825,7 +825,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -839,7 +839,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -853,7 +853,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -867,7 +867,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -881,7 +881,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -895,7 +895,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -909,7 +909,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -923,7 +923,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -937,7 +937,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -951,7 +951,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -965,7 +965,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -979,7 +979,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -993,7 +993,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1007,7 +1007,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1021,7 +1021,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1035,7 +1035,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1049,7 +1049,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1063,7 +1063,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1077,7 +1077,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1091,7 +1091,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1105,7 +1105,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1119,7 +1119,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1133,7 +1133,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1147,7 +1147,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1161,7 +1161,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1175,7 +1175,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1189,7 +1189,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1203,7 +1203,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1217,7 +1217,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1231,7 +1231,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1245,7 +1245,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1259,7 +1259,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1273,7 +1273,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1287,7 +1287,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1301,7 +1301,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1315,7 +1315,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1329,7 +1329,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1343,7 +1343,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1357,7 +1357,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1371,7 +1371,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1385,7 +1385,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1399,7 +1399,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1413,7 +1413,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1427,7 +1427,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1441,7 +1441,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1455,7 +1455,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1469,7 +1469,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1483,7 +1483,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1497,7 +1497,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1511,7 +1511,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1525,7 +1525,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1539,7 +1539,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1553,7 +1553,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1567,7 +1567,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1581,7 +1581,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1595,7 +1595,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1609,7 +1609,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1623,7 +1623,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1637,7 +1637,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1651,7 +1651,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1665,7 +1665,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1679,7 +1679,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1693,7 +1693,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1707,7 +1707,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1721,7 +1721,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1735,7 +1735,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1749,7 +1749,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1763,7 +1763,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1777,7 +1777,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1791,7 +1791,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1805,7 +1805,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1819,7 +1819,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1833,7 +1833,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1847,7 +1847,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1861,7 +1861,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1875,7 +1875,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1889,7 +1889,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1903,7 +1903,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1917,7 +1917,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1931,7 +1931,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1945,7 +1945,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1959,7 +1959,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1973,7 +1973,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -1987,7 +1987,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2001,7 +2001,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 6
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2015,7 +2015,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 55
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2029,7 +2029,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2043,7 +2043,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2057,7 +2057,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2071,7 +2071,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2085,7 +2085,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2099,7 +2099,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2113,7 +2113,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2127,7 +2127,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2141,7 +2141,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2155,7 +2155,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2169,7 +2169,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2183,7 +2183,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2197,7 +2197,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2211,7 +2211,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2225,7 +2225,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2239,7 +2239,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2253,7 +2253,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 6
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2267,7 +2267,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 55
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2281,7 +2281,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2295,7 +2295,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2309,7 +2309,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2323,7 +2323,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2337,7 +2337,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2351,7 +2351,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2365,7 +2365,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2379,7 +2379,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2393,7 +2393,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2407,7 +2407,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2421,7 +2421,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2435,7 +2435,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2449,7 +2449,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2463,7 +2463,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2477,7 +2477,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2491,7 +2491,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2505,7 +2505,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 6
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2519,7 +2519,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 55
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2533,7 +2533,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2547,7 +2547,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2561,7 +2561,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2575,7 +2575,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2589,7 +2589,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2603,7 +2603,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2617,7 +2617,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2631,7 +2631,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2645,7 +2645,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2659,7 +2659,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2673,7 +2673,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2687,7 +2687,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2701,7 +2701,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2715,7 +2715,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2729,7 +2729,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2743,7 +2743,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2757,7 +2757,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 6
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2771,7 +2771,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 55
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2785,7 +2785,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2799,7 +2799,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2813,7 +2813,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2827,7 +2827,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2841,7 +2841,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2855,7 +2855,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2869,7 +2869,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2883,7 +2883,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2897,7 +2897,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2911,7 +2911,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2925,7 +2925,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2939,7 +2939,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2953,7 +2953,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2967,7 +2967,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2981,7 +2981,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -2995,7 +2995,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3009,7 +3009,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 6
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3023,7 +3023,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 55
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3037,7 +3037,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3051,7 +3051,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3065,7 +3065,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3079,7 +3079,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3093,7 +3093,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3107,7 +3107,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3121,7 +3121,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3135,7 +3135,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3149,7 +3149,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3163,7 +3163,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3177,7 +3177,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3191,7 +3191,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3205,7 +3205,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3219,7 +3219,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3233,7 +3233,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3247,7 +3247,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3261,7 +3261,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 6
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3275,7 +3275,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 55
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3289,7 +3289,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3303,7 +3303,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3317,7 +3317,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3331,7 +3331,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3345,7 +3345,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3359,7 +3359,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3373,7 +3373,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3387,7 +3387,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3401,7 +3401,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3415,7 +3415,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3429,7 +3429,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3443,7 +3443,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3457,7 +3457,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3471,7 +3471,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3485,7 +3485,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3499,7 +3499,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3513,7 +3513,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 6
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3527,7 +3527,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 55
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3541,7 +3541,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3555,7 +3555,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3569,7 +3569,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3583,7 +3583,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3597,7 +3597,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3611,7 +3611,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3625,7 +3625,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3639,7 +3639,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3653,7 +3653,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3667,7 +3667,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3681,7 +3681,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3695,7 +3695,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3709,7 +3709,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3723,7 +3723,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3737,7 +3737,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3751,7 +3751,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3765,7 +3765,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 6
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3779,7 +3779,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 55
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3793,7 +3793,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3807,7 +3807,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3821,7 +3821,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3835,7 +3835,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3849,7 +3849,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3863,7 +3863,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3877,7 +3877,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3891,7 +3891,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3905,7 +3905,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3919,7 +3919,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3933,7 +3933,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3947,7 +3947,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3961,7 +3961,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3975,7 +3975,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -3989,7 +3989,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4003,7 +4003,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4017,7 +4017,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 6
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4031,7 +4031,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 55
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4045,7 +4045,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4059,7 +4059,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4073,7 +4073,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4087,7 +4087,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4101,7 +4101,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4115,7 +4115,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4129,7 +4129,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4143,7 +4143,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4157,7 +4157,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4171,7 +4171,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4185,7 +4185,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4199,7 +4199,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4213,7 +4213,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4227,7 +4227,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4241,7 +4241,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4255,7 +4255,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4269,7 +4269,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 6
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4283,7 +4283,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 55
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4297,7 +4297,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4311,7 +4311,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4325,7 +4325,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4339,7 +4339,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4353,7 +4353,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4367,7 +4367,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4381,7 +4381,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4395,7 +4395,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4409,7 +4409,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4423,7 +4423,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4437,7 +4437,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4451,7 +4451,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4465,7 +4465,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4479,7 +4479,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4493,7 +4493,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4507,7 +4507,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4521,7 +4521,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 6
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4535,7 +4535,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 55
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4549,7 +4549,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4563,7 +4563,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4577,7 +4577,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4591,7 +4591,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4605,7 +4605,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4619,7 +4619,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4633,7 +4633,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4647,7 +4647,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4661,7 +4661,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4675,7 +4675,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4689,7 +4689,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4703,7 +4703,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4717,7 +4717,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4731,7 +4731,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4745,7 +4745,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4759,7 +4759,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4773,7 +4773,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 6
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4787,7 +4787,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 55
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4801,7 +4801,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4815,7 +4815,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4829,7 +4829,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4843,7 +4843,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4857,7 +4857,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4871,7 +4871,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4885,7 +4885,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4899,7 +4899,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4913,7 +4913,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4927,7 +4927,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4941,7 +4941,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4955,7 +4955,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4969,7 +4969,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4983,7 +4983,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -4997,7 +4997,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5011,7 +5011,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5025,7 +5025,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 6
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5039,7 +5039,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 55
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5053,7 +5053,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5067,7 +5067,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5081,7 +5081,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5095,7 +5095,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5109,7 +5109,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5123,7 +5123,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5137,7 +5137,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5151,7 +5151,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5165,7 +5165,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5179,7 +5179,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5193,7 +5193,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5207,7 +5207,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5221,7 +5221,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5235,7 +5235,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5249,7 +5249,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5263,7 +5263,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5277,7 +5277,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5291,7 +5291,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5305,7 +5305,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5319,7 +5319,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5333,7 +5333,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5347,7 +5347,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5361,7 +5361,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5375,7 +5375,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5389,7 +5389,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 6
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5403,7 +5403,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 55
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5417,7 +5417,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5431,7 +5431,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5445,7 +5445,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5459,7 +5459,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5473,7 +5473,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5487,7 +5487,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5501,7 +5501,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5515,7 +5515,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5529,7 +5529,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5543,7 +5543,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5557,7 +5557,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5571,7 +5571,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5585,7 +5585,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5599,7 +5599,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5613,7 +5613,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5627,7 +5627,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5641,7 +5641,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5655,7 +5655,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5669,7 +5669,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5683,7 +5683,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5697,7 +5697,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5711,7 +5711,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5725,7 +5725,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5739,7 +5739,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5753,7 +5753,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 6
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5767,7 +5767,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 55
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5781,7 +5781,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5795,7 +5795,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5809,7 +5809,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5823,7 +5823,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5837,7 +5837,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5851,7 +5851,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5865,7 +5865,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5879,7 +5879,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5893,7 +5893,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5907,7 +5907,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5921,7 +5921,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5935,7 +5935,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5949,7 +5949,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5963,7 +5963,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5977,7 +5977,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -5991,7 +5991,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6005,7 +6005,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6019,7 +6019,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6033,7 +6033,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6047,7 +6047,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6061,7 +6061,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6075,7 +6075,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6089,7 +6089,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6103,7 +6103,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6117,7 +6117,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 6
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6131,7 +6131,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 55
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6145,7 +6145,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6159,7 +6159,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6173,7 +6173,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6187,7 +6187,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6201,7 +6201,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6215,7 +6215,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6229,7 +6229,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6243,7 +6243,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6257,7 +6257,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6271,7 +6271,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6285,7 +6285,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6299,7 +6299,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6313,7 +6313,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6327,7 +6327,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6341,7 +6341,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6355,7 +6355,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6369,7 +6369,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6383,7 +6383,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6397,7 +6397,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6411,7 +6411,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6425,7 +6425,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6439,7 +6439,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6453,7 +6453,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6467,7 +6467,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6481,7 +6481,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 6
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6495,7 +6495,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 55
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6509,7 +6509,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6523,7 +6523,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6537,7 +6537,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6551,7 +6551,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6565,7 +6565,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6579,7 +6579,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6593,7 +6593,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6607,7 +6607,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6621,7 +6621,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6635,7 +6635,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6649,7 +6649,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6663,7 +6663,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6677,7 +6677,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6691,7 +6691,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6705,7 +6705,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6719,7 +6719,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6733,7 +6733,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6747,7 +6747,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6761,7 +6761,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6775,7 +6775,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6789,7 +6789,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6803,7 +6803,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6817,7 +6817,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6831,7 +6831,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6845,7 +6845,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 6
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6859,7 +6859,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 55
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6873,7 +6873,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6887,7 +6887,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6901,7 +6901,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6915,7 +6915,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6929,7 +6929,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6943,7 +6943,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6957,7 +6957,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6971,7 +6971,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6985,7 +6985,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -6999,7 +6999,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7013,7 +7013,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7027,7 +7027,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7041,7 +7041,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7055,7 +7055,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7069,7 +7069,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7083,7 +7083,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7097,7 +7097,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7111,7 +7111,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7125,7 +7125,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7139,7 +7139,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7153,7 +7153,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7167,7 +7167,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7181,7 +7181,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7195,7 +7195,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7209,7 +7209,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7223,7 +7223,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7237,7 +7237,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7251,7 +7251,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7265,7 +7265,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7279,7 +7279,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7293,7 +7293,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7307,7 +7307,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7321,7 +7321,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7335,7 +7335,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 10
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7349,7 +7349,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 55
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7363,7 +7363,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7377,7 +7377,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7391,7 +7391,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7405,7 +7405,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7419,7 +7419,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7433,7 +7433,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7447,7 +7447,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7461,7 +7461,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7475,7 +7475,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7489,7 +7489,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7503,7 +7503,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7517,7 +7517,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7531,7 +7531,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7545,7 +7545,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7559,7 +7559,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7573,7 +7573,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7587,7 +7587,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7601,7 +7601,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7615,7 +7615,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7629,7 +7629,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7643,7 +7643,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7657,7 +7657,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7671,7 +7671,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7685,7 +7685,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7699,7 +7699,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7713,7 +7713,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7727,7 +7727,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7741,7 +7741,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7755,7 +7755,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7769,7 +7769,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7783,7 +7783,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7797,7 +7797,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7811,7 +7811,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7825,7 +7825,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 10
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7839,7 +7839,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 55
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7853,7 +7853,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7867,7 +7867,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7881,7 +7881,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7895,7 +7895,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7909,7 +7909,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7923,7 +7923,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7937,7 +7937,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7951,7 +7951,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7965,7 +7965,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7979,7 +7979,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -7993,7 +7993,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8007,7 +8007,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8021,7 +8021,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8035,7 +8035,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8049,7 +8049,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8063,7 +8063,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8077,7 +8077,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8091,7 +8091,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8105,7 +8105,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8119,7 +8119,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8133,7 +8133,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8147,7 +8147,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8161,7 +8161,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8175,7 +8175,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8189,7 +8189,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8203,7 +8203,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8217,7 +8217,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8231,7 +8231,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8245,7 +8245,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8259,7 +8259,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8273,7 +8273,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8287,7 +8287,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8301,7 +8301,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8315,7 +8315,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 10
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8329,7 +8329,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 55
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8343,7 +8343,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8357,7 +8357,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8371,7 +8371,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8385,7 +8385,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8399,7 +8399,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8413,7 +8413,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8427,7 +8427,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8441,7 +8441,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8455,7 +8455,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8469,7 +8469,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8483,7 +8483,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8497,7 +8497,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8511,7 +8511,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8525,7 +8525,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8539,7 +8539,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8553,7 +8553,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8567,7 +8567,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8581,7 +8581,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8595,7 +8595,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8609,7 +8609,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8623,7 +8623,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8637,7 +8637,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8651,7 +8651,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8665,7 +8665,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8679,7 +8679,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8693,7 +8693,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8707,7 +8707,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8721,7 +8721,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8735,7 +8735,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8749,7 +8749,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8763,7 +8763,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8777,7 +8777,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8791,7 +8791,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8805,7 +8805,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 10
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8819,7 +8819,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 55
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8833,7 +8833,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8847,7 +8847,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8861,7 +8861,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8875,7 +8875,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8889,7 +8889,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8903,7 +8903,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8917,7 +8917,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8931,7 +8931,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8945,7 +8945,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8959,7 +8959,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8973,7 +8973,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -8987,7 +8987,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9001,7 +9001,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9015,7 +9015,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9029,7 +9029,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9043,7 +9043,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9057,7 +9057,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9071,7 +9071,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9085,7 +9085,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9099,7 +9099,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9113,7 +9113,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9127,7 +9127,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9141,7 +9141,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9155,7 +9155,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 3
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9169,7 +9169,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 0
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9183,7 +9183,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9197,7 +9197,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9211,7 +9211,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9225,7 +9225,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9239,7 +9239,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1000
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9253,7 +9253,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9267,7 +9267,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9281,7 +9281,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 1001
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9295,7 +9295,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 10
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9309,7 +9309,7 @@ class StringCalculatorTests(unittest.TestCase):
         expectedResult = 55
 
         # Act.
-        actualResult = self.act_Add(inputValue)
+        actualResult = self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(expectedResult, actualResult)
@@ -9324,7 +9324,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9339,7 +9339,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9354,7 +9354,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9369,7 +9369,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9384,7 +9384,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9399,7 +9399,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9414,7 +9414,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9429,7 +9429,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9444,7 +9444,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9459,7 +9459,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9474,7 +9474,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9489,7 +9489,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9504,7 +9504,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9519,7 +9519,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9534,7 +9534,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9549,7 +9549,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9564,7 +9564,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9579,7 +9579,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9594,7 +9594,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9609,7 +9609,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9624,7 +9624,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9639,7 +9639,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9654,7 +9654,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9669,7 +9669,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9684,7 +9684,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9699,7 +9699,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9714,7 +9714,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9729,7 +9729,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9744,7 +9744,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9759,7 +9759,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9774,7 +9774,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9789,7 +9789,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9804,7 +9804,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9819,7 +9819,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9834,7 +9834,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9849,7 +9849,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9864,7 +9864,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9879,7 +9879,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9894,7 +9894,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9909,7 +9909,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9924,7 +9924,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9939,7 +9939,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9954,7 +9954,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9969,7 +9969,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9984,7 +9984,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -9999,7 +9999,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10014,7 +10014,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10029,7 +10029,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10044,7 +10044,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10059,7 +10059,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10074,7 +10074,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10089,7 +10089,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10104,7 +10104,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10119,7 +10119,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10134,7 +10134,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10149,7 +10149,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10164,7 +10164,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10179,7 +10179,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10194,7 +10194,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10209,7 +10209,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10224,7 +10224,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10239,7 +10239,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10254,7 +10254,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10269,7 +10269,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10284,7 +10284,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10299,7 +10299,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10314,7 +10314,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10329,7 +10329,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10344,7 +10344,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10359,7 +10359,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10374,7 +10374,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10389,7 +10389,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10404,7 +10404,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10419,7 +10419,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10434,7 +10434,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10449,7 +10449,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10464,7 +10464,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10479,7 +10479,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10494,7 +10494,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10509,7 +10509,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10524,7 +10524,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10539,7 +10539,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10554,7 +10554,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10569,7 +10569,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10584,7 +10584,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10599,7 +10599,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10614,7 +10614,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10629,7 +10629,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10644,7 +10644,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10659,7 +10659,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10674,7 +10674,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10689,7 +10689,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10704,7 +10704,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10719,7 +10719,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10734,7 +10734,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10749,7 +10749,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10764,7 +10764,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10779,7 +10779,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10794,7 +10794,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10809,7 +10809,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10824,7 +10824,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10839,7 +10839,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10854,7 +10854,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10869,7 +10869,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10884,7 +10884,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10899,7 +10899,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10914,7 +10914,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10929,7 +10929,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10944,7 +10944,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10959,7 +10959,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10974,7 +10974,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -10989,7 +10989,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11004,7 +11004,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11019,7 +11019,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11034,7 +11034,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11049,7 +11049,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11064,7 +11064,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11079,7 +11079,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11094,7 +11094,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11109,7 +11109,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11124,7 +11124,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11139,7 +11139,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11154,7 +11154,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11169,7 +11169,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11184,7 +11184,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11199,7 +11199,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11214,7 +11214,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11229,7 +11229,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11244,7 +11244,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11259,7 +11259,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11274,7 +11274,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11289,7 +11289,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11304,7 +11304,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11319,7 +11319,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11334,7 +11334,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11349,7 +11349,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11364,7 +11364,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11379,7 +11379,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11394,7 +11394,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11409,7 +11409,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11424,7 +11424,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11439,7 +11439,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11454,7 +11454,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11469,7 +11469,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11484,7 +11484,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11499,7 +11499,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11514,7 +11514,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11529,7 +11529,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11544,7 +11544,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11559,7 +11559,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11574,7 +11574,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11589,7 +11589,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11604,7 +11604,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11619,7 +11619,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11634,7 +11634,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11649,7 +11649,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11664,7 +11664,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11679,7 +11679,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11694,7 +11694,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11709,7 +11709,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11724,7 +11724,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11739,7 +11739,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11754,7 +11754,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11769,7 +11769,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11784,7 +11784,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11799,7 +11799,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11814,7 +11814,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11829,7 +11829,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11844,7 +11844,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11859,7 +11859,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11874,7 +11874,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11889,7 +11889,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11904,7 +11904,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11919,7 +11919,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11934,7 +11934,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11949,7 +11949,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11964,7 +11964,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11979,7 +11979,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -11994,7 +11994,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12009,7 +12009,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12024,7 +12024,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12039,7 +12039,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12054,7 +12054,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12069,7 +12069,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12084,7 +12084,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12099,7 +12099,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12114,7 +12114,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12129,7 +12129,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12144,7 +12144,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12159,7 +12159,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12174,7 +12174,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12189,7 +12189,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12204,7 +12204,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12219,7 +12219,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12234,7 +12234,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12249,7 +12249,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12264,7 +12264,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12279,7 +12279,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12294,7 +12294,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12309,7 +12309,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12324,7 +12324,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12339,7 +12339,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12354,7 +12354,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12369,7 +12369,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12384,7 +12384,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12399,7 +12399,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12414,7 +12414,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12429,7 +12429,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12444,7 +12444,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12459,7 +12459,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12474,7 +12474,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12489,7 +12489,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12504,7 +12504,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12519,7 +12519,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12534,7 +12534,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12549,7 +12549,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12564,7 +12564,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12579,7 +12579,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12594,7 +12594,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12609,7 +12609,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12624,7 +12624,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12639,7 +12639,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12654,7 +12654,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12669,7 +12669,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12684,7 +12684,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12699,7 +12699,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12714,7 +12714,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12729,7 +12729,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12744,7 +12744,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12759,7 +12759,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12774,7 +12774,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12789,7 +12789,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12804,7 +12804,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12819,7 +12819,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12834,7 +12834,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12849,7 +12849,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12864,7 +12864,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12879,7 +12879,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12894,7 +12894,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12909,7 +12909,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12924,7 +12924,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12939,7 +12939,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12954,7 +12954,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12969,7 +12969,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12984,7 +12984,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -12999,7 +12999,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13014,7 +13014,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13029,7 +13029,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13044,7 +13044,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13059,7 +13059,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13074,7 +13074,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13089,7 +13089,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13104,7 +13104,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13119,7 +13119,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13134,7 +13134,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13149,7 +13149,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13164,7 +13164,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13179,7 +13179,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13194,7 +13194,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13209,7 +13209,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13224,7 +13224,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13239,7 +13239,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13254,7 +13254,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13269,7 +13269,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13284,7 +13284,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13299,7 +13299,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13314,7 +13314,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13329,7 +13329,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13344,7 +13344,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13359,7 +13359,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13374,7 +13374,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13389,7 +13389,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13404,7 +13404,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13419,7 +13419,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13434,7 +13434,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13449,7 +13449,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13464,7 +13464,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13479,7 +13479,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13494,7 +13494,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13509,7 +13509,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13524,7 +13524,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13539,7 +13539,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13554,7 +13554,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13569,7 +13569,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13584,7 +13584,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13599,7 +13599,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13614,7 +13614,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13629,7 +13629,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13644,7 +13644,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13659,7 +13659,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13674,7 +13674,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13689,7 +13689,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13704,7 +13704,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13719,7 +13719,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13734,7 +13734,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13749,7 +13749,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13764,7 +13764,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13779,7 +13779,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13794,7 +13794,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13809,7 +13809,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13824,7 +13824,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13839,7 +13839,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13854,7 +13854,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13869,7 +13869,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13884,7 +13884,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13899,7 +13899,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13914,7 +13914,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13929,7 +13929,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13944,7 +13944,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13959,7 +13959,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13974,7 +13974,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -13989,7 +13989,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14004,7 +14004,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14019,7 +14019,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14034,7 +14034,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14049,7 +14049,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14064,7 +14064,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14079,7 +14079,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14094,7 +14094,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14109,7 +14109,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14124,7 +14124,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14139,7 +14139,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14154,7 +14154,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14169,7 +14169,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14184,7 +14184,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14199,7 +14199,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14214,7 +14214,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14229,7 +14229,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14244,7 +14244,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14259,7 +14259,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14274,7 +14274,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14289,7 +14289,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14304,7 +14304,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14319,7 +14319,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14334,7 +14334,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14349,7 +14349,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14364,7 +14364,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14379,7 +14379,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14394,7 +14394,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14409,7 +14409,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14424,7 +14424,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14439,7 +14439,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14454,7 +14454,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14469,7 +14469,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14484,7 +14484,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14499,7 +14499,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14514,7 +14514,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14529,7 +14529,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14544,7 +14544,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14559,7 +14559,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14574,7 +14574,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14592,7 +14592,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14610,7 +14610,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14628,7 +14628,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14646,7 +14646,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14664,7 +14664,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14682,7 +14682,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14700,7 +14700,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14718,7 +14718,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14736,7 +14736,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14754,7 +14754,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14772,7 +14772,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14790,7 +14790,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14808,7 +14808,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14826,7 +14826,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14844,7 +14844,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14862,7 +14862,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14880,7 +14880,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14898,7 +14898,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14916,7 +14916,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14934,7 +14934,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14952,7 +14952,7 @@ class StringCalculatorTests(unittest.TestCase):
 
         # Act.
         with self.assertRaises(Exception) as error:
-            self.act_Add(inputValue)
+            self.__act_Add(inputValue)
 
         # Assert.
         self.assertEqual(errorMessage, str(error.exception))
@@ -14960,7 +14960,7 @@ class StringCalculatorTests(unittest.TestCase):
     """
     Invokes the Add method with the provided test input.
     """
-    def act_Add(self, inputValue):
+    def __act_Add(self, inputValue):
         stringCalculator = StringCalculator()
         return stringCalculator.add(inputValue)
 

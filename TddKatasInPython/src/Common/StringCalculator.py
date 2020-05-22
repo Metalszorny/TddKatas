@@ -53,7 +53,7 @@ class StringCalculator:
         return sum
 
     """
-    
+    Initialialize variables.
     """
     def __initialize(self):
         self.__numberSeparators = [";", "\n"]
@@ -92,7 +92,8 @@ class StringCalculator:
                 '€',
                 '÷',
                 '¤',
-                '^'
+                '^',
+				'§'
             ]
 
     """
@@ -299,7 +300,7 @@ class StringCalculator:
         return numbers
 
     """
-    Gets a character that is not used in the input and can be used to substitute all number delimeters.
+    Gets a character that is not used in the input and can be used to substitute all number delimiters.
     """
     def __getSubstitutionString(self, numbers):
         substitutionCharacter = ""
