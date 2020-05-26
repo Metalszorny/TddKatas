@@ -23,7 +23,7 @@ namespace Common
         #region Constructors
 
         /// <summary>
-        /// Initializes a new instance on the <see cref="StringCalculator"/> class.
+        /// Initialises a new instance on the <see cref="StringCalculator"/> class.
         /// </summary>
         public StringCalculator()
         {
@@ -86,7 +86,7 @@ namespace Common
         #region Protected Methods
 
         /// <summary>
-        /// Initialialize variables.
+        /// Initialise variables.
         /// </summary>
         protected void Initialize()
         {
@@ -371,6 +371,7 @@ namespace Common
         /// Replaces the number separators with the given character in the input, but keeps the length of the input.
         /// </summary>
         /// <param name="numbers">The string input that contains the numbers to be added together separated by delimiters.</param>
+        /// <param name="substitutionCharacter">The character used for substituting a part of the input.</param>
         /// <returns>The input with replaced number separators.</returns>
         protected string SubstituteSeparatorsInInput(string numbers, string substitutionCharacter)
         {
@@ -394,6 +395,7 @@ namespace Common
         /// Replaces the numbers with the given character in the input, but keeps the length of the input.
         /// </summary>
         /// <param name="numbers">The string input that contains the numbers to be added together separated by delimiters.</param>
+        /// <param name="substitutionCharacter">The character used for substituting a part of the input.</param>
         /// <returns>The input with replaced numbers.</returns>
         protected string SubstituteNumbersInInput(string numbers, string substitutionCharacter)
         {
@@ -420,6 +422,7 @@ namespace Common
         /// Truncates the given character in the input if it contains multiple occurrences in one place.
         /// </summary>
         /// <param name="numbers">The string input that contains the numbers to be added together separated by delimiters.</param>
+        /// <param name="substitutionCharacter">The character used for substituting a part of the input.</param>
         /// <returns>The input with truncated occurrences of the given character.</returns>
         protected string TruncateTextSubstitutionInInput(string numbers, string substitutionCharacter)
         {
