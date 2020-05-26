@@ -53,7 +53,7 @@ class StringCalculator:
         return sum
 
     """
-    Initialialize variables.
+    Initialise variables.
     """
     def __initialize(self):
         self.__numberSeparators = [";", "\n"]
