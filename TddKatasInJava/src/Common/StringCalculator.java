@@ -66,7 +66,7 @@ public class StringCalculator {
     }
 
     /**
-     * Initialialize variables.
+     * Initialise variables.
      */
     protected void initialize() {
         // Initialize the default number separators.
@@ -316,6 +316,7 @@ public class StringCalculator {
     /**
      * Replaces the number separators with the given character in the input, but keeps the length of the input.
      * @param numbers The string input that contains the numbers to be added together separated by delimiters.
+     * @param substitutionCharacter The character used for substituting a part of the input.
      * @return The input with replaced number separators.
      */
     protected String substituteSeparatorsInInput(String numbers, String substitutionCharacter) {
@@ -336,6 +337,7 @@ public class StringCalculator {
     /**
      * Replaces the numbers with the given character in the input, but keeps the length of the input.
      * @param numbers The string input that contains the numbers to be added together separated by delimiters.
+     * @param substitutionCharacter The character used for substituting a part of the input.
      * @return The input with replaced numbers.
      */
     protected String substituteNumbersInInput(String numbers, String substitutionCharacter) {
@@ -366,6 +368,7 @@ public class StringCalculator {
     /**
      * Truncates the given character in the input if it contains multiple occurrences in one place.
      * @param numbers The string input that contains the numbers to be added together separated by delimiters.
+     * @param substitutionCharacter The character used for substituting a part of the input.
      * @return The input with truncated occurrences of the given character.
      */
     protected String truncateTextSubstitutionInInput(String numbers, String substitutionCharacter) {
