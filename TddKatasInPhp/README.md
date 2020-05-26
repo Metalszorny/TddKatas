@@ -16,5 +16,10 @@ The PHP implementation of the TDD Kata exercises.
 
 
 ## Environment
-- IDE: Eclipse 2020-03 with Php 7.4 and PHPUnit 9.1.4
+- IDE: Oracle NetBeans 8.2 with Php 5.6 and PHPUnit 4.8.36
 - OS: Microsoft Windows 10 Enterprise, 64 bit
+
+
+## Warning
+The PHPUnit package needs to be set up before the application can be executed.
+NetBeans at the time had a bug that didn't allow newer versions of PHPUnit to be used.
