@@ -1,0 +1,21 @@
+{
+  "name": "tdd_katas",
+  "version": "1.0.0",
+  "description": "Tdd kata exercises in javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "testwatch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Metalszorny/TddKatas/TddKatasInJavaScript"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
