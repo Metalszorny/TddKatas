@@ -1,5 +1,11 @@
 /TddKatasInJavaScript/node_modules/
 /TddKatasInPhp/nbproject/private/
+/TddKatasInVisualCSharp/Common/bin/
+/TddKatasInVisualCSharp/Common/obj/
+/TddKatasInVisualCSharp/packages/
+/TddKatasInVisualCSharp/Test/bin/
+/TddKatasInVisualCSharp/Test/obj/
+/TddKatasInVisualCSharp/TestResults/
 /TddKatasInVisualCSharpCore/Common/bin/
 /TddKatasInVisualCSharpCore/Common/obj/
 /TddKatasInVisualCSharpCore/Test/bin/
