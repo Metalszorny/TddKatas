@@ -1,5 +1,15 @@
 /TddKatasInJavaScript/node_modules/
 /TddKatasInPhp/nbproject/private/
+/TddKatasInVisualBasic/Common/bin/
+/TddKatasInVisualBasic/Common/obj/
+/TddKatasInVisualBasic/packages/
+/TddKatasInVisualBasic/Test/bin/
+/TddKatasInVisualBasic/Test/obj/
+/TddKatasInVisualBasic/TestResults/
+/TddKatasInVisualBasicCore/Common/bin/
+/TddKatasInVisualBasicCore/Common/obj/
+/TddKatasInVisualBasicCore/Test/bin/
+/TddKatasInVisualBasicCore/Test/obj/
 /TddKatasInVisualCSharp/Common/bin/
 /TddKatasInVisualCSharp/Common/obj/
 /TddKatasInVisualCSharp/packages/
