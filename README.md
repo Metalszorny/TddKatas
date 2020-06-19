@@ -57,5 +57,8 @@ If there are multiple negatives, show all of them in the exception message.
 - Php
 - Python
 - Ruby
+- Visual Basic
+- Visual Basic Core
+- Visual C#
 - Visual C# Core
 - Visual C++
